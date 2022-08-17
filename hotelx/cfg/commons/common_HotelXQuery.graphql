@@ -1,4 +1,4 @@
-extend type HotelXQuery {
+type HotelXQuery {
   # Returns status of the hotelX configuration service.
   hotelConfigurationStatusService: ServiceStatus!
 

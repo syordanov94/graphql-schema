@@ -4,8 +4,6 @@ type Query{
   admin: AdminQuery
   # The hotelX product query root for implementing GraphQL query.
   hotelX: HotelXQuery
-  # The Mappea product query root for implementing GraphQL query.
-  mappea: MappeaQuery
   # The PaymentX product query root for implementing GraphQL query.
   paymentX: PaymentXQuery
   # The Stats product query root for implementing GraphQL query.
@@ -15,7 +13,7 @@ type Query{
   # The Activation query root for implementing GraphQL query.
   activation: ActivationQuery
   # The Speed query root for implementing GraphQL query.
-  speed: speedQuery
+  speed: SpeedQuery
   # The Traffic Optimization query root for implementing GraphQL query.
   trafficOptimization: TrafficOptimizationQuery
   # The Social query root for implementing GraphQL query.

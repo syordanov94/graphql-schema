@@ -1,4 +1,4 @@
-extend type HotelXMutation {
+type HotelXMutation {
   # Creates a new hotel booking consisting of an option of 1 or more rooms.
   book(input: HotelBookInput!, settings: HotelSettingsInput, filter: HotelXFilterInput): HotelBookPayload
 

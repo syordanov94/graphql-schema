@@ -1,4 +1,4 @@
-extend type LoggingMutation {
+type LoggingMutation {
   createAuditRule(data: AuditRuleCreateInput!): AuditRuleConnection!
   deleteAuditRule(where: AuditRuleWhereUniqueInput!): AuditRule!
 }

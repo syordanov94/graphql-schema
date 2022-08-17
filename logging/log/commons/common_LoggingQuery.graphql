@@ -1,6 +1,0 @@
-extend type LoggingQuery {
-  """
-  retrieveLogsService(filter: LoggingFilterInput!): LoggingConnection!
-  """
-  retrieveStats(filter: LoggingLegacyFilterInput!): LoggingLegacyConnection!
-}

@@ -1,5 +1,5 @@
 # Mutations are operations that change or update data on the server
-extend type AdminMutation {
+type AdminMutation {
   # Creates an Access
   createAccess(input: AccessInput!): Access
   # Updates an Access

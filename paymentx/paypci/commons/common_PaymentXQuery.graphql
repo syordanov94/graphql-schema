@@ -1,5 +1,5 @@
 # A Query is an entry point into the object graph.
-extend type PaymentXQuery {
+type PaymentXQuery {
   # Returns status of the vault service.
   vaultStatusService: AdviseMessage!
 
